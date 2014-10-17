@@ -1,0 +1,21 @@
+#!/bin/sh
+
+## 
+#  Show information about the repo:
+#   * Remote URLs
+#   * Remote Branches
+#   * Local Branches
+#   * Working tree status
+## 
+
+echo "\n** Remote URLs **\n"
+git remote -v
+
+echo "\n** Remote Branches **\n"
+git branch -r
+
+echo "\n** Local Branches **\n"
+git branch
+
+echo "\n** Working tree status **\n"
+git status
