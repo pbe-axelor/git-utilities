@@ -1,0 +1,12 @@
+#!/bin/sh
+
+## 
+#  Show status of super and sub repositories
+## 
+
+git status
+echo
+git submodule foreach "
+    git status
+    echo
+"
