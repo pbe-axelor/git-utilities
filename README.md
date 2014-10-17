@@ -5,7 +5,7 @@ Usefull git commands
 
 Commands
 -----------------------------------------
-`git-info` : Show information about the repo.
+`git-info` : Show information about the repo. <br/>
 `git-each-status` : Show status of super and sub repositories.
 
 Installation
