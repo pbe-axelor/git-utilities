@@ -1,0 +1,15 @@
+#!/bin/sh
+
+## 
+#  Release with the given <tag>
+#   * Create tag with the given tag as parameter
+#   * Push the tag to origin
+## 
+
+[ -z $1 ] && echo "Tag name required" && exit 1
+
+TAG=`echo "$1"`
+
+git tag $TAG -a -m "Version $TAG" \
+	&& git push origin $TAG \
+	&& echo "Release $TAG done"
