@@ -15,7 +15,7 @@ echo "\n** Remote Branches **\n"
 git branch -r
 
 echo "\n** Local Branches **\n"
-git branch
+git branch -vv
 
 echo "\n** Working tree status **\n"
 git status
