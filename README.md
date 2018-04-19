@@ -3,6 +3,8 @@ Git utilities
 
 Usefull git commands
 
+An update
+
 Commands
 -----------------------------------------
 `git-info` : Show information about the repo. <br/>
